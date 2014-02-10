@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tbPayLoad.Text" xml:space="preserve">
+    <value>&lt;COMMANDedx xmlns="http://www.commandalkon.com/CommandEdx"&gt;
+  &lt;Header&gt;
+    &lt;Timestamp&gt;2013-05-01T15:24:31-05:00&lt;/Timestamp&gt;
+    &lt;From&gt;
+      &lt;Route&gt;
+        &lt;Type&gt;LogicalAddress&lt;/Type&gt;
+        &lt;Level&gt;Location&lt;/Level&gt;
+        &lt;Address&gt;1&lt;/Address&gt;
+      &lt;/Route&gt;
+      &lt;Route&gt;
+        &lt;Type&gt;LogicalAddress&lt;/Type&gt;
+        &lt;Level&gt;Plant&lt;/Level&gt;
+        &lt;Address&gt;1&lt;/Address&gt;
+      &lt;/Route&gt;
+      &lt;Route&gt;
+        &lt;Type&gt;PhysicalAddress&lt;/Type&gt;
+        &lt;Level&gt;None&lt;/Level&gt;
+        &lt;Address&gt;12.16.173.169:5050&lt;/Address&gt;
+      &lt;/Route&gt;
+    &lt;/From&gt;
+    &lt;To&gt;
+      &lt;Route&gt;
+        &lt;Type&gt;LogicalAddress&lt;/Type&gt;
+        &lt;Level&gt;System&lt;/Level&gt;
+        &lt;Address&gt;1&lt;/Address&gt;
+      &lt;/Route&gt;
+    &lt;/To&gt;
+    &lt;Priority&gt;High&lt;/Priority&gt;
+    &lt;TTL&gt;0&lt;/TTL&gt;
+    &lt;TTW&gt;1440&lt;/TTW&gt;
+    &lt;Synchronous&gt;False&lt;/Synchronous&gt;
+  &lt;/Header&gt;
+  &lt;Message&gt;
+    &lt;SyncProductionPerformance releaseID="1.0" versionID="1.0" xmlns="http://www.wbf.org/xml/B2MML-V0401" xsi:schemaLocation="http://www.wbf.org/xml/B2MML-V0401  B2MML-V0401-ProductionPerformance.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+      &lt;ApplicationArea&gt;
+        &lt;Sender&gt;
+          &lt;LogicalID&gt;&lt;/LogicalID&gt;
+          &lt;ComponentID&gt;7ffcb552-48db-49e7-872a-48b475f493fe&lt;/ComponentID&gt;
+          &lt;TaskID&gt;6be10358-1833-4c1f-ae41-a71a92fdb68f&lt;/TaskID&gt;
+          &lt;ReferenceID&gt;CommandBatchPluginCPM&lt;/ReferenceID&gt;
+          &lt;ConfirmationCode&gt;Never&lt;/ConfirmationCode&gt;
+        &lt;/Sender&gt;
+        &lt;CreationDateTime&gt;2013-05-01T15:24:31-05:00&lt;/CreationDateTime&gt;
+        &lt;BODID&gt;602fe4f6-6ca0-449a-beb4-e50a20a44fdc&lt;/BODID&gt;
+      &lt;/ApplicationArea&gt;
+      &lt;DataArea&gt;
+        &lt;Sync&gt;
+          &lt;ActionCriteria&gt;
+            &lt;ActionExpression actionCode="Add" /&gt;
+          &lt;/ActionCriteria&gt;
+        &lt;/Sync&gt;
+        
+&lt;ProductionPerformance xmlns="http://www.wbf.org/xml/B2MML-V0401"&gt;
+    &lt;ID&gt;127f4a55-9504-49bf-a077-a050fc15f2aa&lt;/ID&gt;
+    &lt;Description&gt;R70M&lt;/Description&gt;
+    &lt;PublishedDate&gt;2013-05-01T16:23:02-04:00&lt;/PublishedDate&gt;
+    &lt;ProductionScheduleID&gt;6be10358-1833-4c1f-ae41-a71a92fdb68f&lt;/ProductionScheduleID&gt;
+    &lt;ProductionResponse&gt;
+        &lt;ID&gt;573a8f2d-0bb8-4935-8725-d99d32b50df9&lt;/ID&gt;
+        &lt;ProductionRequestID&gt;6be10358-1833-4c1f-ae41-a71a92fdb68f&lt;/ProductionRequestID&gt;
+        &lt;Location&gt;
+            &lt;EquipmentID&gt;1&lt;/EquipmentID&gt;
+            &lt;EquipmentElementLevel&gt;Plant&lt;/EquipmentElementLevel&gt;
+        &lt;/Location&gt;
+        &lt;SegmentResponse&gt;
+            &lt;ID&gt;127f4a55-9504-49bf-a077-a050fc15f2aa&lt;/ID&gt;
+            &lt;ProcessSegmentID&gt;PlantProduction&lt;/ProcessSegmentID&gt;
+            &lt;ProductSegmentID&gt;751&lt;/ProductSegmentID&gt;
+            &lt;ActualStartTime&gt;2013-05-01T16:23:02-04:00&lt;/ActualStartTime&gt;
+            &lt;ActualEndTime&gt;2013-05-01T16:24:23-04:00&lt;/ActualEndTime&gt;
+            &lt;ProductionData&gt;
+                &lt;ID&gt;DispatchTicketCode&lt;/ID&gt;
+                &lt;Value&gt;
+                    &lt;ValueString /&gt;
+                    &lt;DataType&gt;int&lt;/DataType&gt;
+                    &lt;UnitOfMeasure /&gt;
+                &lt;/Value&gt;
+            &lt;/ProductionData&gt;
+            &lt;ProductionData&gt;
+                &lt;ID&gt;LocalTicketCode&lt;/ID&gt;
+                &lt;Value&gt;
+                    &lt;ValueString&gt;16740&lt;/ValueString&gt;
+                    &lt;DataType&gt;int&lt;/DataType&gt;
+                    &lt;UnitOfMeasure /&gt;
+                &lt;/Value&gt;
+            &lt;/ProductionData&gt;
+            &lt;ProductionData&gt;
+                &lt;ID&gt;MixingTime&lt;/ID&gt;
+                &lt;Value&gt;
+                    &lt;ValueString /&gt;
+                    &lt;DataType&gt;int&lt;/DataType&gt;
+                    &lt;UnitOfMeasure&gt;SEC&lt;/UnitOfMeasure&gt;
+                &lt;/Value&gt;
+            &lt;/ProductionData&gt;
+            &lt;ProductionData&gt;
+                &lt;ID&gt;Keywords&lt;/ID&gt;
+                &lt;Value&gt;
+                    &lt;ValueString&gt;
+								Order Date 2013-05-01T14:50:52-04:00; Order Code 4; Ticket Code 16740&lt;/ValueString&gt;
+                    &lt;DataType&gt;string&lt;/DataType&gt;
+                    &lt;UnitOfMeasure /&gt;
+                &lt;/Value&gt;
+            &lt;/ProductionData&gt;
+            &lt;ProductionData&gt;
+                &lt;ID&gt;TotalBatches&lt;/ID&gt;
+                &lt;Value&gt;
+                    &lt;ValueString&gt;1&lt;/ValueString&gt;
+                    &lt;DataType&gt;int&lt;/DataType&gt;
+                    &lt;UnitOfMeasure /&gt;
+                &lt;/Value&gt;
+            &lt;/ProductionData&gt;
+            &lt;PersonnelActual&gt;
+                &lt;PersonID&gt;BINEWBERRY&lt;/PersonID&gt;
+                &lt;Description&gt;BINEWBERRY&lt;/Description&gt;
+            &lt;/PersonnelActual&gt;
+            &lt;EquipmentActual&gt;
+                &lt;EquipmentID&gt;1396&lt;/EquipmentID&gt;
+                &lt;Description&gt;1396&lt;/Description&gt;
+                &lt;EquipmentActualProperty&gt;
+                    &lt;ID&gt;ReturnedConcrete&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;0.000&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;YDQ&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/EquipmentActualProperty&gt;
+                &lt;EquipmentActualProperty&gt;
+                    &lt;ID&gt;ProductionRequestID&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString /&gt;
+                        &lt;DataType&gt;string&lt;/DataType&gt;
+                        &lt;UnitOfMeasure /&gt;
+                    &lt;/Value&gt;
+                &lt;/EquipmentActualProperty&gt;
+                &lt;EquipmentActualProperty&gt;
+                    &lt;ID&gt;LocalTicketCode&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString /&gt;
+                        &lt;DataType&gt;string&lt;/DataType&gt;
+                        &lt;UnitOfMeasure /&gt;
+                    &lt;/Value&gt;
+                &lt;/EquipmentActualProperty&gt;
+            &lt;/EquipmentActual&gt;
+            &lt;MaterialActual&gt;
+                &lt;MaterialDefinitionID&gt;751&lt;/MaterialDefinitionID&gt;
+                &lt;Description&gt;R70M&lt;/Description&gt;
+                &lt;MaterialUse&gt;Produced&lt;/MaterialUse&gt;
+                &lt;Quantity&gt;
+                    &lt;QuantityString&gt;5&lt;/QuantityString&gt;
+                    &lt;DataType&gt;decimal&lt;/DataType&gt;
+                    &lt;UnitOfMeasure&gt;YDQ&lt;/UnitOfMeasure&gt;
+                &lt;/Quantity&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Cancel Reason&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString /&gt;
+                        &lt;DataType&gt;string&lt;/DataType&gt;
+                        &lt;UnitOfMeasure /&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Keywords&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;
+									Item Code R70M&lt;/ValueString&gt;
+                        &lt;DataType&gt;string&lt;/DataType&gt;
+                        &lt;UnitOfMeasure /&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+            &lt;/MaterialActual&gt;
+            &lt;MaterialActual&gt;
+                &lt;MaterialDefinitionID&gt;WATER&lt;/MaterialDefinitionID&gt;
+                &lt;Description&gt;WATER&lt;/Description&gt;
+                &lt;MaterialUse&gt;MAXWATERCALC&lt;/MaterialUse&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;MAXWATERALLOWED&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;0.000&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;GLL&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+            &lt;/MaterialActual&gt;
+            &lt;MaterialActual&gt;
+                &lt;MaterialDefinitionID&gt;3584&lt;/MaterialDefinitionID&gt;
+                &lt;MaterialClassID /&gt;
+                &lt;Description&gt;L6AA-SCN&lt;/Description&gt;
+                &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                &lt;Quantity&gt;
+                    &lt;QuantityString&gt;9668.106&lt;/QuantityString&gt;
+                    &lt;DataType&gt;Amount&lt;/DataType&gt;
+                    &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                &lt;/Quantity&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;FeedTarget&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;9737.746&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;TotalUsedFromInventory&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;9668.106&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Variance&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;-69.640&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Moisture&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;2.8000&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;P1&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Keywords&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;
+						Item Code L6AA-SCN&lt;/ValueString&gt;
+                        &lt;DataType&gt;string&lt;/DataType&gt;
+                        &lt;UnitOfMeasure /&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+            &lt;/MaterialActual&gt;
+            &lt;MaterialActual&gt;
+                &lt;MaterialDefinitionID&gt;879&lt;/MaterialDefinitionID&gt;
+                &lt;MaterialClassID /&gt;
+                &lt;Description&gt;2NS-AAR&lt;/Description&gt;
+                &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                &lt;Quantity&gt;
+                    &lt;QuantityString&gt;6842.090&lt;/QuantityString&gt;
+                    &lt;DataType&gt;Amount&lt;/DataType&gt;
+                    &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                &lt;/Quantity&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;FeedTarget&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;6841.391&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;TotalUsedFromInventory&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;6842.09&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Variance&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;0.699&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Moisture&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;0.0000&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;P1&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Keywords&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;
+						Item Code 2NS-AAR&lt;/ValueString&gt;
+                        &lt;DataType&gt;string&lt;/DataType&gt;
+                        &lt;UnitOfMeasure /&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+            &lt;/MaterialActual&gt;
+            &lt;MaterialActual&gt;
+                &lt;MaterialDefinitionID&gt;4040&lt;/MaterialDefinitionID&gt;
+                &lt;MaterialClassID /&gt;
+                &lt;Description&gt;CMT1-ESS&lt;/Description&gt;
+                &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                &lt;Quantity&gt;
+                    &lt;QuantityString&gt;3167.998&lt;/QuantityString&gt;
+                    &lt;DataType&gt;Amount&lt;/DataType&gt;
+                    &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                &lt;/Quantity&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;FeedTarget&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;3190.000&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;TotalUsedFromInventory&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;3167.998&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Variance&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;-22.002&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Moisture&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;0.0000&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;P1&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Keywords&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;
+						Item Code CMT1-ESS&lt;/ValueString&gt;
+                        &lt;DataType&gt;string&lt;/DataType&gt;
+                        &lt;UnitOfMeasure /&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+            &lt;/MaterialActual&gt;
+            &lt;MaterialActual&gt;
+                &lt;MaterialDefinitionID&gt;859&lt;/MaterialDefinitionID&gt;
+                &lt;MaterialClassID&gt;Water&lt;/MaterialClassID&gt;
+                &lt;Description&gt;WAT1&lt;/Description&gt;
+                &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                &lt;Quantity&gt;
+                    &lt;QuantityString&gt;135.852&lt;/QuantityString&gt;
+                    &lt;DataType&gt;Amount&lt;/DataType&gt;
+                    &lt;UnitOfMeasure&gt;GLL&lt;/UnitOfMeasure&gt;
+                &lt;/Quantity&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;FeedTarget&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;135.500&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;GLL&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;TotalUsedFromInventory&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;135.852&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;GLL&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Variance&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;0.352&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;GLL&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Moisture&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;0.0000&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;P1&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Keywords&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;
+						Item Code WAT1&lt;/ValueString&gt;
+                        &lt;DataType&gt;string&lt;/DataType&gt;
+                        &lt;UnitOfMeasure /&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+            &lt;/MaterialActual&gt;
+            &lt;MaterialActual&gt;
+                &lt;MaterialDefinitionID&gt;4794&lt;/MaterialDefinitionID&gt;
+                &lt;MaterialClassID&gt;Admixture&lt;/MaterialClassID&gt;
+                &lt;Description&gt;0HRWR-PR&lt;/Description&gt;
+                &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                &lt;Quantity&gt;
+                    &lt;QuantityString&gt;121.429&lt;/QuantityString&gt;
+                    &lt;DataType&gt;Amount&lt;/DataType&gt;
+                    &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                &lt;/Quantity&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;FeedTarget&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;120.000&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;TotalUsedFromInventory&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;121.429&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Variance&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;1.429&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Moisture&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;0.0000&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;P1&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Keywords&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;
+						Item Code 0HRWR-PR&lt;/ValueString&gt;
+                        &lt;DataType&gt;string&lt;/DataType&gt;
+                        &lt;UnitOfMeasure /&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+            &lt;/MaterialActual&gt;
+            &lt;MaterialActual&gt;
+                &lt;MaterialDefinitionID&gt;1028&lt;/MaterialDefinitionID&gt;
+                &lt;MaterialClassID&gt;Admixture&lt;/MaterialClassID&gt;
+                &lt;Description&gt;0ACMR-EU&lt;/Description&gt;
+                &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                &lt;Quantity&gt;
+                    &lt;QuantityString&gt;450.909&lt;/QuantityString&gt;
+                    &lt;DataType&gt;Amount&lt;/DataType&gt;
+                    &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                &lt;/Quantity&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;FeedTarget&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;446.600&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;TotalUsedFromInventory&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;450.909&lt;/ValueString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Variance&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;4.309&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Moisture&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;0.0000&lt;/ValueString&gt;
+                        &lt;DataType&gt;decimal&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;P1&lt;/UnitOfMeasure&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+                &lt;MaterialActualProperty&gt;
+                    &lt;ID&gt;Keywords&lt;/ID&gt;
+                    &lt;Value&gt;
+                        &lt;ValueString&gt;
+						Item Code 0ACMR-EU&lt;/ValueString&gt;
+                        &lt;DataType&gt;string&lt;/DataType&gt;
+                        &lt;UnitOfMeasure /&gt;
+                    &lt;/Value&gt;
+                &lt;/MaterialActualProperty&gt;
+            &lt;/MaterialActual&gt;
+            &lt;SegmentResponse&gt;
+                &lt;ID&gt;127f4a55-9504-49bf-a077-a050fc15f2aa&lt;/ID&gt;
+                &lt;ProcessSegmentID&gt;AutoFeed&lt;/ProcessSegmentID&gt;
+                &lt;MaterialActual&gt;
+                    &lt;MaterialDefinitionID&gt;3584&lt;/MaterialDefinitionID&gt;
+                    &lt;MaterialClassID /&gt;
+                    &lt;Description&gt;L6AA-SCN&lt;/Description&gt;
+                    &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                    &lt;Quantity&gt;
+                        &lt;QuantityString&gt;9668.106&lt;/QuantityString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Quantity&gt;
+                    &lt;MaterialActualProperty&gt;
+                        &lt;ID&gt;AutoUsedFromInventory&lt;/ID&gt;
+                        &lt;Value&gt;
+                            &lt;ValueString&gt;9668.106&lt;/ValueString&gt;
+                            &lt;DataType&gt;Amount&lt;/DataType&gt;
+                            &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                        &lt;/Value&gt;
+                    &lt;/MaterialActualProperty&gt;
+                &lt;/MaterialActual&gt;
+                &lt;MaterialActual&gt;
+                    &lt;MaterialDefinitionID&gt;879&lt;/MaterialDefinitionID&gt;
+                    &lt;MaterialClassID /&gt;
+                    &lt;Description&gt;2NS-AAR&lt;/Description&gt;
+                    &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                    &lt;Quantity&gt;
+                        &lt;QuantityString&gt;6842.090&lt;/QuantityString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Quantity&gt;
+                    &lt;MaterialActualProperty&gt;
+                        &lt;ID&gt;AutoUsedFromInventory&lt;/ID&gt;
+                        &lt;Value&gt;
+                            &lt;ValueString&gt;6842.090&lt;/ValueString&gt;
+                            &lt;DataType&gt;Amount&lt;/DataType&gt;
+                            &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                        &lt;/Value&gt;
+                    &lt;/MaterialActualProperty&gt;
+                &lt;/MaterialActual&gt;
+                &lt;MaterialActual&gt;
+                    &lt;MaterialDefinitionID&gt;4040&lt;/MaterialDefinitionID&gt;
+                    &lt;MaterialClassID /&gt;
+                    &lt;Description&gt;CMT1-ESS&lt;/Description&gt;
+                    &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                    &lt;Quantity&gt;
+                        &lt;QuantityString&gt;3167.998&lt;/QuantityString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                    &lt;/Quantity&gt;
+                    &lt;MaterialActualProperty&gt;
+                        &lt;ID&gt;AutoUsedFromInventory&lt;/ID&gt;
+                        &lt;Value&gt;
+                            &lt;ValueString&gt;3167.998&lt;/ValueString&gt;
+                            &lt;DataType&gt;Amount&lt;/DataType&gt;
+                            &lt;UnitOfMeasure&gt;LBR&lt;/UnitOfMeasure&gt;
+                        &lt;/Value&gt;
+                    &lt;/MaterialActualProperty&gt;
+                &lt;/MaterialActual&gt;
+                &lt;MaterialActual&gt;
+                    &lt;MaterialDefinitionID&gt;859&lt;/MaterialDefinitionID&gt;
+                    &lt;MaterialClassID&gt;Water&lt;/MaterialClassID&gt;
+                    &lt;Description&gt;WAT1&lt;/Description&gt;
+                    &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                    &lt;Quantity&gt;
+                        &lt;QuantityString&gt;135.852&lt;/QuantityString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;GLL&lt;/UnitOfMeasure&gt;
+                    &lt;/Quantity&gt;
+                    &lt;MaterialActualProperty&gt;
+                        &lt;ID&gt;AutoUsedFromInventory&lt;/ID&gt;
+                        &lt;Value&gt;
+                            &lt;ValueString&gt;135.852&lt;/ValueString&gt;
+                            &lt;DataType&gt;Amount&lt;/DataType&gt;
+                            &lt;UnitOfMeasure&gt;GLL&lt;/UnitOfMeasure&gt;
+                        &lt;/Value&gt;
+                    &lt;/MaterialActualProperty&gt;
+                &lt;/MaterialActual&gt;
+                &lt;MaterialActual&gt;
+                    &lt;MaterialDefinitionID&gt;4794&lt;/MaterialDefinitionID&gt;
+                    &lt;MaterialClassID&gt;Admixture&lt;/MaterialClassID&gt;
+                    &lt;Description&gt;0HRWR-PR&lt;/Description&gt;
+                    &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                    &lt;Quantity&gt;
+                        &lt;QuantityString&gt;121.429&lt;/QuantityString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                    &lt;/Quantity&gt;
+                    &lt;MaterialActualProperty&gt;
+                        &lt;ID&gt;AutoUsedFromInventory&lt;/ID&gt;
+                        &lt;Value&gt;
+                            &lt;ValueString&gt;121.429&lt;/ValueString&gt;
+                            &lt;DataType&gt;Amount&lt;/DataType&gt;
+                            &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                        &lt;/Value&gt;
+                    &lt;/MaterialActualProperty&gt;
+                &lt;/MaterialActual&gt;
+                &lt;MaterialActual&gt;
+                    &lt;MaterialDefinitionID&gt;1028&lt;/MaterialDefinitionID&gt;
+                    &lt;MaterialClassID&gt;Admixture&lt;/MaterialClassID&gt;
+                    &lt;Description&gt;0ACMR-EU&lt;/Description&gt;
+                    &lt;MaterialUse&gt;Consumed&lt;/MaterialUse&gt;
+                    &lt;Quantity&gt;
+                        &lt;QuantityString&gt;450.909&lt;/QuantityString&gt;
+                        &lt;DataType&gt;Amount&lt;/DataType&gt;
+                        &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                    &lt;/Quantity&gt;
+                    &lt;MaterialActualProperty&gt;
+                        &lt;ID&gt;AutoUsedFromInventory&lt;/ID&gt;
+                        &lt;Value&gt;
+                            &lt;ValueString&gt;450.909&lt;/ValueString&gt;
+                            &lt;DataType&gt;Amount&lt;/DataType&gt;
+                            &lt;UnitOfMeasure&gt;OZA&lt;/UnitOfMeasure&gt;
+                        &lt;/Value&gt;
+                    &lt;/MaterialActualProperty&gt;
+                &lt;/MaterialActual&gt;
+            &lt;/SegmentResponse&gt;
+        &lt;/SegmentResponse&gt;
+        &lt;ResponseState&gt;Completed&lt;/ResponseState&gt;
+    &lt;/ProductionResponse&gt;
+&lt;/ProductionPerformance&gt;
+
+      &lt;/DataArea&gt;
+    &lt;/SyncProductionPerformance&gt;
+  &lt;/Message&gt;
+&lt;/COMMANDedx&gt;</value>
+  </data>
+</root>
