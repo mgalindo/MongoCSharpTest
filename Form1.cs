@@ -20,12 +20,16 @@ namespace MongoCSharpTest
 
         private void btnInsertMsg_Click(object sender, EventArgs e)
         {
-            DAL.CreateMessage(tbPlant.Text, tbTruck.Text, tbPayLoad.Text);
+            DAL.CreateMessage(tbPlant.Text, tbTruck.Text, tbPayLoad.Text, cbxStatus.Text);
         }
 
         private void btnRetrieve_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = DAL.GetMessages();
+            int limitRecords = Convert.ToInt32(qryLimit.Text);
+
+            dataGridView1.DataSource = DAL.GetMessages(tbQryPlant.Text, tbQryTruck.Text, qryStatus.Text, ckbxDescending.Checked, limitRecords);
+
+            lblRowCount.Text = dataGridView1.RowCount.ToString()+" Record(s)";
         }
     }
 }

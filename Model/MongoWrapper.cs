@@ -29,7 +29,8 @@ namespace MongoCSharpTest.Model
         {
             get
             {
-                return "Server=localhost:27017"; //ConfigurationManager.AppSettings["connectionString"];
+                //return "Server=localhost:27017"; 
+                return ConfigurationManager.AppSettings["connectionString"];
             }
         }
 

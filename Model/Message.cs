@@ -13,6 +13,7 @@ namespace MongoCSharpTest.Model
         public ObjectId _id { get; set; }
         public string plant { get; set; }
         public string truck { get; set; }
+        public string status { get; set; }
         public string payload { get; set; }
         public DateTime createdate { get; set; }
     }
