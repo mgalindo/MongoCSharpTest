@@ -86,5 +86,27 @@ namespace MongoCSharpTest.Model
             return lst;
         }
 
+        public static Message FindFirstMessage(string truck, string newStatus)
+        {
+            var sortBy = SortBy.Descending("createdate");
+
+            //var query = Query.EQ("plant", plant);
+
+            var query = new QueryDocument();
+            query.Add("truck", truck);
+            query.Add("status", "New");
+
+            var update = Update.Set("status", newStatus).Set("lastmodified", DateTime.UtcNow);
+
+            MongoCollection<Message> messages = MongoWrapper.GetDatabase().GetCollection<Message>("MessageQueue");
+
+            var result = messages.FindAndModify(query, sortBy, update, true /*return new doc */);
+
+            var modifiedRecord = result.GetModifiedDocumentAs<Message>();
+
+            return modifiedRecord;
+
+        }
+
     }
 }

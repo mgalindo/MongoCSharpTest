@@ -16,5 +16,6 @@ namespace MongoCSharpTest.Model
         public string status { get; set; }
         public string payload { get; set; }
         public DateTime createdate { get; set; }
+        public DateTime lastmodified { get; set; }
     }
 }
